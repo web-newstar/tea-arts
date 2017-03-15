@@ -1,0 +1,33 @@
+.zt_header {
+  width: 100%;
+  height: 140px; }
+  .zt_header .zt_box {
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto; }
+    .zt_header .zt_box .zt_img {
+      width: 245px;
+      height: 85px;
+      padding: 27px 0; }
+    .zt_header .zt_box .zt_ul {
+      float: right;
+      position: relative; }
+      .zt_header .zt_box .zt_ul li {
+        float: left;
+        line-height: 140px;
+        margin: 0 15px;
+        font-size: 18px;
+        position: relative;
+        color: #000000; }
+        .zt_header .zt_box .zt_ul li:hover {
+          color: #fff; }
+          .zt_header .zt_box .zt_ul li:hover .imgs {
+            display: block; }
+        .zt_header .zt_box .zt_ul li .imgs {
+          display: none;
+          position: absolute;
+          left: 20%;
+          top: 10%; }
+      .zt_header .zt_box .zt_ul img {
+        margin-right: 0;
+        margin-top: 36px; }

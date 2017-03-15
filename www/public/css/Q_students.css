@@ -1,0 +1,89 @@
+#Q_students{
+    width:100%;
+}
+.Q_content{
+    width:1200px;
+    height:624px;
+    margin:0 auto;
+    position:relative;
+}
+.Q_tuA{
+    width:219px;
+    height:199px;
+    position:absolute;
+    top:0;
+    left:0;
+    background:url(../images/Q_1_03.png);
+    z-index:2;
+}
+.Q_tu1{
+    width:199px;
+    height:200px;
+    position:absolute;
+    top:0;
+    left:201px;
+}
+.Q_tu2{
+    width:399px;
+    height:400px;
+    position:absolute;
+    top:0;
+    left:399px;
+}
+.Q_tu3{
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:199px;
+    left:598px;
+}
+.Q_tu4{
+    width:400px;
+    height:400px;
+    position:absolute;
+    top:0;
+    right:2px;
+}
+.Q_tu5{
+    width:399px;
+    height:400px;
+    position:absolute;
+    top:200px;
+    left:0;;
+}
+.Q_tu6{
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:400px;
+    left:399px;
+}
+.Q_tu7{
+    width:199px;
+    height:200px;
+    position:absolute;
+    top:400px;
+    left:599px;
+}
+.Q_tuB{
+    width:400px;
+    height:222px;
+    position:absolute;
+    top:400px;
+    right:0;
+    background:url("../images/q-8_12.png");
+}
+#Q_tu img{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#Q_tu .img2{
+    display:none;
+}
+#Q_tu:hover .img2{
+    display:block;
+    z-index:333;
+}
+

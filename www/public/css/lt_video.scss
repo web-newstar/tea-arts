@@ -1,0 +1,49 @@
+.lt_video{
+  width:1200px;
+  height:auto;
+  margin:0 auto;
+  position:relative;
+  embed{
+    width:1200px;
+    height:700px;
+  }
+  .play{
+    width:111px;
+    height:111px;
+    border:3px solid #ffffff;
+    border-radius:50%;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto auto;
+    z-index:3;
+    .green{
+      width:97px;
+      height:97px;
+      border-radius: 50%;
+      background:#76a15e;
+      position:absolute;
+      left:0;
+      right:0;
+      top:0;
+      bottom:0;
+      margin:auto auto;
+      .three{
+        width:0;
+        height:0;
+        position:absolute;
+        left:33px;
+        top:0;
+        bottom:0;
+        margin:auto 0;
+        border-left:40px solid #ffffff;
+        border-right:0px;
+        border-top:30px solid #76a15e;
+        border-bottom:30px solid #76a15e;
+      }
+    }
+
+  }
+}

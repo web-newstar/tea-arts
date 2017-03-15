@@ -1,0 +1,113 @@
+#Q_two {
+  width: 100%; }
+
+.Q_two {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.Q_left {
+  width: 281px;
+  float: left;
+  margin-left: 26px; }
+
+.Q_left .Q_title {
+  width: 135px;
+  height: 43px;
+  margin-left: 28px; }
+
+.Q_course {
+  width: 281px;
+  margin-top: 12px;
+  margin-bottom: 115px;
+  border: 2px solid #efefef;
+  box-shadow: 0 0 2px #efefef; }
+
+#Q_list {
+  width: 208px;
+  height: 54px;
+  margin: 0 auto;
+  padding-top: 18px;
+  border-bottom: 2px dashed #000;
+  position: relative; }
+
+.Q_course .Q_padd1 {
+  margin-top: 43px !important; }
+
+#Q_list p {
+  display: block;
+  padding-left: 38px;
+  font-size: 16px; }
+
+#Q_list img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: none; }
+
+.Q_padd1 img {
+  display: block; }
+
+.Q_back {
+  width: 324px;
+  height: 200px;
+  margin-top: 86px;
+  background: url("../images/Q_03.png") no-repeat;
+  padding-bottom: 10px; }
+
+.Q_two .Q_left .Q_hot {
+  margin-left: 28px;
+  width: 179px;
+  height: 43px; }
+
+.Q_two .Q_left .dashed {
+  margin-top: 17px;
+  border: 1px dashed #000; }
+
+.Q_two .Q_left .Q_shaw {
+  width: 281px;
+  margin-top: 24px;
+  border: 2px solid #efefef;
+  box-shadow: 0 0 2px #efefef; }
+  .Q_two .Q_left .Q_shaw .Q_photo {
+    width: 249px;
+    height: 164px;
+    margin: 18px auto; }
+  .Q_two .Q_left .Q_shaw p {
+    font-size: 16px;
+    padding: 10px 0 3px 16px; }
+  .Q_two .Q_left .Q_shaw .Q_bg {
+    margin: 0 auto;
+    width: 248px;
+    height: 3px;
+    background: url("../images/Q_28.png"); }
+  .Q_two .Q_left .Q_shaw span {
+    font-size: 12px;
+    padding-left: 16px; }
+  .Q_two .Q_left .Q_shaw .Q_time {
+    width: 249px;
+    height: 14px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 10px; }
+    .Q_two .Q_left .Q_shaw .Q_time .Q_yuan {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #859758;
+      float: left; }
+    .Q_two .Q_left .Q_shaw .Q_time .Q_tian {
+      float: left;
+      margin-left: 5px; }
+
+.Q_two .Q_left .Q_tui {
+  width: 282px;
+  height: 37px;
+  margin: 18px auto;
+  background: #859758;
+  text-align: center;
+  line-height: 37px;
+  color: #fff; }
+

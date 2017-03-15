@@ -1,0 +1,27 @@
+#page .lt_header{
+    width:1200px;
+    height:100%;
+    margin:0 auto;
+    font-size:14px;
+}
+#page .lt_header .lt_logo{
+    float:left;
+    font-size:18px;
+    line-height:55px;
+    font-weight:bold;
+    height:55px;
+    border-radius:5px;
+    background:#fff;
+    margin-top:5px;
+    color:#000000;
+    padding:0 5px;
+}
+#page .lt_header .ant-dropdown-link{
+    float:right;
+    /*margin-right:55px;*/
+    line-height:64px;
+}
+#page .ant-layout-content{
+    width:1200px;
+    margin:0 auto;
+}

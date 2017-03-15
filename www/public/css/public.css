@@ -1,0 +1,12 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dt,dd,input,form{
+    margin:0px;
+	list-style:none;/*去掉小圆点*/
+	padding:0px;
+	font-family:Arial,"微软雅黑","黑体";
+	font-size:14px;
+	box-sizing: border-box;
+	}
+	a{
+	color:#333;
+	text-decoration:none;
+	}

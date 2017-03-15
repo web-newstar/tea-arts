@@ -1,0 +1,200 @@
+$fcolor: #98c955 !default;
+.yfooterbox {
+  position: relative;
+}
+
+//联系我们头部
+.ymesstitle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1200px;
+  height: 70px;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 24px;
+  span {
+    float: left;
+    display: block;
+  }
+  .ysp1 {
+    width: 682px;
+    height: 100%;
+    padding-left: 48px;
+  }
+  .ysp2 {
+    width: 1200-730px;
+    height: 100%;
+  }
+}
+
+//联系我们
+.ymess {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1200px;
+  height: 340px;
+  box-shadow: 0px 0px 20px 0px #e8e6e7;
+  box-sizing: border-box;
+  z-index: 1;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.ymessl {
+  margin-left: 60px;
+  margin-top: 47px;
+  width: 670px;
+  float: left;
+  li {
+    float: left;
+    width: 270px;
+    margin-bottom: 19px;
+    margin-right: 42px;
+    span {
+      display: inline-block;
+      width: 84px;
+      margin-right: 10px;
+      font-size: 20px;
+      line-height: 38px;
+    }
+    input {
+      width: 174px;
+      height: 36px;
+      border: 1px solid #dbdbdc;
+    }
+  }
+}
+
+.ysel {
+  width: 174px;
+  height: 36px;
+  border: 1px solid #dbdbdc;
+}
+
+.ybz {
+  width: 270px;
+  span {
+    float: left;
+  }
+  textarea {
+    resize: none;
+    width: 170px;
+    height: 90px;
+    float: left;
+    border: 1px solid #dbdbdc;
+  }
+}
+
+.yyz {
+  width: 270px;
+  span {
+    float: left;
+  }
+  .yyzr {
+    float: right;
+    input {
+      margin-bottom: 15px;
+    }
+    .yyzt {
+      width: 100%;
+      div {
+        width: 78px;
+        height: 36px;
+        border: 1px solid #dbdbdc;
+        margin-right: 20px;
+        float: left;
+      }
+      a {
+        float: left;
+        line-height: 36px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.ytbtn {
+  width: 1200-730px;
+  margin-left: 405px;
+  div {
+    width: 112px;
+    height: 45px;
+    background: url(../images/y_6.png);
+  }
+}
+
+//联系方式
+.ymessr {
+  width: 1200-730px;
+  float: left;
+  margin-top: 47px;
+  li {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 20px;
+    div {
+      width: 48px;
+      height: 48px;
+      margin-right: 20px;
+      float: left;
+    }
+    span {
+      line-height: 48px;
+      font-size: 18px;
+      color: #747575;
+      float: left;
+    }
+  }
+  .yli1{
+    div{
+      background: url(../images/y_2.png);
+    }
+  }
+  .yli2{
+    div{
+      background: url(../images/y_3.png);
+    }
+  }
+  .yli3{
+    div{
+      background: url(../images/y_4.png);
+    }
+  }
+  .yli4{
+    div{
+      background: url(../images/y_5.png);
+    }
+  }
+}
+
+//地图
+.ymap {
+  position: relative;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  height: 425px;
+  background: url(../images/y_1.png) center center no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+//页脚
+.yfbottom {
+  position: relative;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  height: 105px;
+  background: $fcolor;
+  text-align: center;
+  line-height: 105px;
+  .ybq {
+    margin-right: 340px;
+  }
+};

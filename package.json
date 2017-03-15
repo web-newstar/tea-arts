@@ -1,0 +1,42 @@
+{
+  "name": "minyue",
+  "version": "0.0.1",
+  "description": "there arg many",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "watch": "webpack -w"
+  },
+  "keywords": [
+    "minyue"
+  ],
+  "author": "雷涛，齐震元，陶聪颖，刘将，马国锋，张涛，姚亚康",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.7.4",
+    "async": "^2.1.5",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "body-parser": "^1.16.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "multer": "^1.3.0",
+    "mysql": "^2.13.0",
+    "pinyin": "^2.8.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "wangeditor": "^2.1.23",
+    "webpack": "^1.14.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.1.1",
+    "crypto": "0.0.3",
+    "webpack": "^1.14.0"
+  }
+}
