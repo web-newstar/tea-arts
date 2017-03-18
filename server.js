@@ -42,8 +42,8 @@ app.use("/admin",(req,res,next)=>{
 app.use("/login",loginRouter)
 app.use('/',indexRouter)
 app.use("/admin",adminRouter)
-app.listen(4000,()=>{
+app.listen(8006,()=>{
     console.log("服务已经启动")
-    console.log("访问4000接口")
+    console.log("访问8006接口")
 })
 
